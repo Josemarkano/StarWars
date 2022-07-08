@@ -1,0 +1,22 @@
+<main class="container" *ngIf="detail">
+    <div class="bg-light p-5 rounded">
+            <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+                <h3>{{detail.name}}</h3>    
+            </header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <ul class="nav flex-column">
+                            <li><a>Birth Year: {{detail.birth_year}}</a></li>
+                            <li><a>Eye Color: {{detail.eye_color}}</a></li>
+                            <li><a>Gender: {{detail.gender}}</a></li>
+                            <li><a>Hair Color: {{detail.hair_color}}</a></li>
+                            <li><a>Height: {{detail.height}}</a></li>
+                            <li><a>Mass: {{detail.mass}}</a></li>
+                            <li><a>Skin Color: {{detail.skin_color}}</a></li>
+                        </ul>
+                    </div>               
+                </div>            
+            </div>
+    </div>
+</main>
